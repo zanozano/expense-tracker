@@ -7,8 +7,8 @@ import TransactionList from './components/TransactionList.vue';
 </script>
 
 <template>
-  <Header />
-  <div class="container">
+  <div class="container mx-auto p-16 min-h-screen">
+    <Header />
     <Balance />
     <IncomeExpenses />
     <TransactionList />
